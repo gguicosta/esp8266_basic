@@ -1,9 +1,9 @@
 #ifndef WEB_SERVERIN_H
 #define WEB_SERVERIN_H
 
-#include <ESPmDNS.h>
+#include <ESP8266mDNS.h>
 #include "SPIFFS.h"
-#include <WebServer.h>
+#include <ESP8266WebServer.h>
 #include <WebSocketsServer.h>
 
 // Adicione estas declarações para as funções que estavam faltando
