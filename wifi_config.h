@@ -1,12 +1,12 @@
 #ifndef WIFI_CONFIG_H
 #define WIFI_CONFIG_H
 
-#include <WiFi.h>
-#include <WiFiMulti.h>
+#include <ESP8266WiFi.h>
+#include <ESP8266WiFiMulti.h>
 #include <ArduinoOTA.h>
-#include <ESPmDNS.h>
+#include <ESP8266mDNS.h>
 #include "SPIFFS.h"
-#include <WebServer.h>
+#include <ESP8266WebServer.h>
 #include <WebSocketsServer.h>
 
 WiFiMulti wifiMulti;              // Create an instance of the WiFiMulti class, called 'wifiMulti'
